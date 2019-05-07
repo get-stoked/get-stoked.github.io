@@ -1,0 +1,83 @@
+a,
+a:focus,
+a:hover {
+    color: white;
+}
+
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+    color: #333;
+    text-shadow: none; /* Prevent inheritance from `body` */
+    background-color: white;
+    border: .05rem solid white;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: Poppins, Arial, serif;
+    background-image: url("../img/baggage.jpg");
+    background-size: cover;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+section#content-container {
+    box-shadow: inset 0 0 5rem #4a4a4a33;
+}
+
+div#content {
+    min-height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    color: #252525;
+}
+
+div.text {
+    max-width: 480px;
+    font-weight: 400;
+    white-space: pre-line;
+}
+
+h1.logo {
+    font-family: 'Russo One';
+    text-decoration: none;
+    border-bottom: 0.8rem solid #252525;
+    font-size: 5.1rem;
+    line-height: 0.9;
+    margin-bottom: 0.4rem;
+}
+
+h5.catchphrase {
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+
+div#product2 {
+    height: 500px;
+}
+
+div#product-container {
+    width: 100%;
+    height: 100%;
+    padding: 5em;
+}
+
+div.product {
+    height: 100%;
+    width: 100%;
+    background-image: url("../img/standalone.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
